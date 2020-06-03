@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+header {
+  background-color: #F63232;
+  width: 100%;
+  padding: 14px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  border: 8px solid white;
+  border-radius: 36px;
+  padding: 6px 12px;
+  display: inline-block;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner .welcome {
+  background-color: #FEB614;
+  color: white;
+  padding: 30px;
+  position: absolute;
+  top: 30%;
+  left: 0;
+}
+
+.banner h2 {
+  font-size: 74px;
+}
+
+.banner h2 span {
+  font-size: 1.3em;
+}
+
+nav {
+  background-color: #F4F4F4;
+  padding: 20px;
+  position: sticky;
+  top: 93px;
+  left: 0;
+}
+
+nav ul {
+  white-space: nowrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav li {
+  display: inline-block;
+  width: 25%;
+  font-size: 22px;
+  text-align: center;
+}
+
+/* Decendant Selector */
+nav li a {
+  text-decoration: none;
+  color: #4B4B4B;
+}
+
+/* Pseudo Class */
+nav li a:hover {
+  color: #F63232;
+  border-bottom: 3px solid #F63232;
+}
+
+nav li a.join {
+  color: #F63232;
+  font-weight: bold;
+}
+
+main {
+  max-width: 100%;
+  width: 1200px;
+  margin: 80px auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+main article h2 {
+  color: #F63232;
+  font-size: 48px;
+}
+
+main article p {
+  margin-top: 5px;
+  line-height: 1.7em;
+  color: #4B4B4B;
+  text-align: justify;
+}
+
+/* Pseudo Element */
+main article p::selection {
+  color: white;
+  background-color: #F63232;
+}
+
+main article p::before {
+  content: '>>> ';
+  font-weight: bold;
+  color: #F63232;
+}
+
+main .images {
+  text-align: center;
+  margin: 80px 0;
+  white-space: nowrap;
+}
+
+main .images li {
+  display: inline-block;
+  width: 40%;
+  margin: 20px 2%;
+}
+
+main .images li img {
+  max-width: 100%;
+}
+
+main .images li img:hover {
+  position: relative;
+  top: -10px;
+  cursor: pointer;
+}
+
+section.join {
+  background-color: #F4F4F4;
+  text-align: center;
+  padding: 60px 20%;
+  color: #4B4B4B;
+}
+
+section.join h2 {
+  font-size: 36px;
+}
+
+section.join p {
+  margin: 10px 0;
+}
+
+section.join form input {
+  margin: 20px 0;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: 4px solid #EDEDED;
+  border-radius: 28px;
+}
+
+section.join form input:focus {
+  outline: none;
+  border: 4px solid #AAA;
+}
+
+/* section.join form input:invalid {
+  border: 4px solid red;
+} */
+
+section.join form input:valid {
+  border: 4px solid green;
+}
+
+footer {
+  background-color: #F63232;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
