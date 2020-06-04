@@ -6,17 +6,49 @@ body {
   margin: 0 20%;
 }
 
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  box-sizing: border-box;
+  padding: 20px 20%;
+  background-color: #EF3D18;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+}
+
+nav ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 div#banner {
   position: relative;
 }
 
 div#banner h1 {
   position: absolute;
-  bottom: 30%;
-  left: 50px;
+  bottom: 22%;
+  left: 0;
   color: white;
   background-color: #FFC003;
   padding: 30px;
+  padding-left: 10%;
   font-size: 40px;
 }
 
