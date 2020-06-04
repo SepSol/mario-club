@@ -34,4 +34,5 @@ p.text-columns {
   /* column-count: 3; */
   column-gap: 100px;
   /* column-width: 100px; */
+  column-rule: 1px solid black;
 }
