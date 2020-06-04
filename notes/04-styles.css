@@ -2,25 +2,85 @@ body {
   margin: 50px 20%;
 }
 
-.flex-container {
+
+
+.flex-container-1 {
   display: flex;
   background-color: lightgray;
 }
 
-.flex-container .box {
-  height: 200px;
-  min-width: 200px;
-  max-width: 500px;
+.flex-container-1 .box {
+  height: 100px;
+  min-width: 100px;
+  max-width: 400px;
+  flex-grow: 1;
 }
 
-.flex-container .red {
+.flex-container-1 .red {
+  background-color: red;
+  /* flex-grow: 1; */
+}
+
+.flex-container-1 .green {
+  background-color: green;
+  /* flex-grow: 2; */
+}
+
+.flex-container-1 .blue {
+  background-color: blue;
+  /* flex-grow: 3; */
+}
+
+
+
+.flex-container-2 {
+  display: flex;
+  background-color: lightgray;
+}
+
+.flex-container-2 .box {
+  height: 100px;
+  width: 400px;
+  min-width: 5px;
+}
+
+.flex-container-2 .red {
+  background-color: red;
+  flex-shrink: 1;
+}
+
+.flex-container-2 .green {
+  background-color: green;
+  flex-shrink: 5;
+}
+
+.flex-container-2 .blue {
+  background-color: blue;
+  flex-shrink: 9;
+}
+
+
+
+.flex-container-3 {
+  display: flex;
+  background-color: lightgray;
+  flex-wrap: wrap;
+}
+
+.flex-container-3 .box {
+  height: 100px;
+  min-width: 200px;
+  flex-grow: 1;
+}
+
+.flex-container-3 .red {
   background-color: red;
 }
 
-.flex-container .green {
+.flex-container-3 .green {
   background-color: green;
 }
 
-.flex-container .blue {
+.flex-container-3 .blue {
   background-color: blue;
 }
