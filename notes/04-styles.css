@@ -1,0 +1,26 @@
+body {
+  margin: 50px 20%;
+}
+
+.flex-container {
+  display: flex;
+  background-color: lightgray;
+}
+
+.flex-container .box {
+  height: 200px;
+  min-width: 200px;
+  max-width: 500px;
+}
+
+.flex-container .red {
+  background-color: red;
+}
+
+.flex-container .green {
+  background-color: green;
+}
+
+.flex-container .blue {
+  background-color: blue;
+}
