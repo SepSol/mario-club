@@ -50,14 +50,3 @@ a[href$=".ir"] {
 a[href*="google"] {
   background-color: rosybrown;
 }
-
-
-
-
-p.columns {
-  color: black;
-  column-count: 3;
-  column-gap: 100px;
-  /* column-width: 100px; */
-  margin: 0 50px;
-}
