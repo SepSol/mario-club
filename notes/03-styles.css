@@ -6,7 +6,25 @@ body {
   margin: 0 20%;
 }
 
-img {
+div#banner {
+  position: relative;
+}
+
+div#banner h1 {
+  position: absolute;
+  bottom: 30%;
+  left: 50px;
+  color: white;
+  background-color: #FFC003;
+  padding: 30px;
+  font-size: 40px;
+}
+
+div#banner img {
+  width: 100%;
+}
+
+div.float img {
   float: left;
   height: 200px;
   margin: 5px 20px;
@@ -19,10 +37,20 @@ img {
 
 .plans {
   background-color: #F7F7F7;
+  border: 1px dotted #AAA;
   float: left;
   width: 26%;
-  margin: 20px 1.6%;
+  margin: 20px 1.5%;
   padding: 2%;
+  position: relative;
+}
+
+.plans:nth-child(2) {
+  bottom: 15px;
+}
+
+.plan-a, .plan-c {
+  bottom: -15px;
 }
 
 .plans h2, .plans p {
