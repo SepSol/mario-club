@@ -84,3 +84,55 @@ body {
 .flex-container-3 .blue {
   background-color: blue;
 }
+
+
+
+.flex-container-4 {
+  display: flex;
+  background-color: lightgray;
+  flex-wrap: wrap;
+}
+
+.flex-container-4 .box {
+  height: 100px;
+  flex-basis: 200px;
+  flex-grow: 1;
+}
+
+.flex-container-4 .red {
+  background-color: red;
+}
+
+.flex-container-4 .green {
+  background-color: green;
+}
+
+.flex-container-4 .blue {
+  background-color: blue;
+}
+
+
+
+.flex-container-5 {
+  display: flex;
+  background-color: lightgray;
+  flex-wrap: wrap;
+}
+
+.flex-container-5 .box {
+  height: 100px;
+  flex: 1 1 200px;
+  /* flex: grow shrink basis; */
+}
+
+.flex-container-5 .red {
+  background-color: red;
+}
+
+.flex-container-5 .green {
+  background-color: green;
+}
+
+.flex-container-5 .blue {
+  background-color: blue;
+}
