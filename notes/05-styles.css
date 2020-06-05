@@ -313,3 +313,37 @@ input {
   margin-left: 42%;
   margin-bottom: 12px;
 }
+
+
+
+div.grid-container-9 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(80px, auto);
+  gap: 10px;
+  grid-template-areas: 
+  "myHeader myHeader  myHeader  myHeader"
+  "myAside  myAside   myMain    myMain"
+  "myAside  myAside   myMain    myMain"
+  "myNav    myNav     myMain    myMain"
+  " .       mySection mySection     . "
+  " .       mySection mySection     . "
+  "myFooter myFooter  myFooter  myFooter";
+}
+
+div.grid-container-9 > * {
+  padding: 30px;
+  text-align: center;
+  background-color: #999;
+}
+
+div.grid-container-9 > *:nth-child(even) {
+  background-color: #888;
+}
+
+div.grid-container-9 header  {grid-area: myHeader;}
+div.grid-container-9 main    {grid-area: myMain;}
+div.grid-container-9 section {grid-area: mySection;}
+div.grid-container-9 aside   {grid-area: myAside;}
+div.grid-container-9 nav     {grid-area: myNav;}
+div.grid-container-9 footer  {grid-area: myFooter;}
