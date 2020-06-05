@@ -1,0 +1,25 @@
+* {
+  font-family: helvetica, sans-serif;
+}
+
+body {
+  max-width: 960px;
+  background-color: lightgray;
+}
+
+
+
+div.grid-container-1 {
+  display: grid;
+  grid-template-columns: 200px 20% 200px;
+}
+
+div.grid-container-1 div {
+  padding: 20px;
+  text-align: center;
+  background-color: #999;
+}
+
+div.grid-container-1 div:nth-child(even) {
+  background-color: #666;
+}
