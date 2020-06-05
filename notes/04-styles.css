@@ -158,14 +158,17 @@ body {
 
 .flex-container-6 .red {
   background-color: red;
+  order: 2;
 }
 
 .flex-container-6 .green {
   background-color: green;
+  order: 1;
 }
 
 .flex-container-6 .blue {
   background-color: blue;
+  order: 3;
 }
 
 
