@@ -105,3 +105,41 @@ div.grid-container-4 div:nth-child(4) {
 div.grid-container-4 div:nth-child(5) {
   grid-area: 2 / 2 / auto / span 2;
 }
+
+
+
+div.grid-container-5 {
+  display: grid;
+  grid-template: repeat(3, minmax(80px, auto)) / repeat(4, 1fr);
+  gap: 10px;
+}
+
+div.grid-container-5 div {
+  padding: 20px;
+  text-align: center;
+  background-color: #999;
+}
+
+div.grid-container-5 div:nth-child(even) {
+  background-color: #666;
+}
+
+div.grid-container-5 div:nth-child(1) {
+  grid-area: 1/1/auto/span 4;
+}
+
+div.grid-container-5 div:nth-child(6) {
+  grid-area: 3/1/auto/span 4;
+}
+
+div.grid-container-5 div:nth-child(4) {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  gap: 5px;
+}
+
+div.grid-container-5 div:nth-child(4) p {
+  margin: 0;
+  padding: 20px 5px;
+  border: 1px solid #000;
+}
