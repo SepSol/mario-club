@@ -207,3 +207,126 @@ body {
   }
   
 }
+
+
+
+.nav-3 {
+  background-color: #333;
+}
+
+.nav-3 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-3 ul li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 18px;
+  display: block;
+  padding: 20px;
+}
+
+.nav-3 ul li a:hover {
+  background-color: #555;
+}
+
+@media (min-width: 768px) {
+
+  .nav-3 ul {
+    display: flex;
+  }
+
+  .nav-3 ul li {
+    flex: 1;
+  }
+  
+}
+
+
+
+.nav-4 {
+  background-color: #333;
+}
+
+.nav-4 ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-4 ul li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 18px;
+  display: block;
+  padding: 20px;
+}
+
+.nav-4 ul li a:hover {
+  background-color: #555;
+}
+
+@media (min-width: 768px) {
+
+  .nav-4 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-4 ul {
+    display: flex;
+  }
+
+  .nav-4 ul li {
+    flex: 1;
+  }
+  
+}
+
+
+
+.nav-5 {
+  background-color: #333;
+}
+
+.nav-5 ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-5 ul li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 18px;
+  display: block;
+  padding: 20px;
+}
+
+.nav-5 ul li a:hover {
+  background-color: #555;
+}
+
+@media (min-width: 768px) {
+
+  .nav-5 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-5 ul {
+    display: flex;
+  }
+
+  .nav-5 ul li {
+    flex: 1;
+  }
+  
+}
